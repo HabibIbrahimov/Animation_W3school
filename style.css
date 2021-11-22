@@ -1,0 +1,36 @@
+
+.small-transform{
+    width:  70px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+   }
+   @keyframes test{
+    0%{
+        transform: rotate(0deg);left: 0px;
+    }
+    25%{
+        transform: rotate(25deg);left: 0px;
+    }
+    50%{
+        transform: rotate(0deg);left: 500px;
+    }
+    55%{
+        transform: rotate(0deg);left: 500px;
+    }
+    70%{
+        transform: rotate(0deg);left: 500px;background: aqua;
+    }
+    100%{
+        transform: rotate(-360deg);left: 0px;
+    }
+   }
+
+  
+   
